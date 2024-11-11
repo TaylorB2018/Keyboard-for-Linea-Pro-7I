@@ -139,8 +139,8 @@ extension KeyboardApp {
     static var keyboardKitTest: Self {
         .init(
             name: "NiceKeyboard",
-            bundleId: "com.changchun.testKeyboard2",
-            appGroupId: "group.com.changchun2.testKeyboard2"
+            bundleId: "",
+            appGroupId: ""
         )
     }
 }
