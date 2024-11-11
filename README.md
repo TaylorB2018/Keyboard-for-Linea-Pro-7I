@@ -24,8 +24,8 @@ When the device has not yet been connected, the three buttons on top will be gra
 
 ![image](https://github.com/user-attachments/assets/9e4b102e-cbe1-4273-8e4a-981f838c5f50)
 
-RFID: The RFID button is used to scann HF RFID Tags such as mifare. Once tapped, the device will contiously scan for RFID tags until it is tapped again or it successfully scans a tag and prints its content to the screen
+**RFID**: The RFID button is used to scann HF RFID Tags such as mifare. Once tapped, the device will contiously scan for RFID tags until it is tapped again or it successfully scans a tag and prints its content to the screen
 
-UHF: when tapped, if there is a UHF tag nearby, it will scan it and print its contents out to the screen
+**UHF**: when tapped, if there is a UHF tag nearby, it will scan it and print its contents out to the screen
 
-Barcode Scanner: This activates the bar code scanner on the device. it will scan for 9 seconds or until it successfully scans a barcode. This can also be activated by pressing the buttons on the side of the device
+**Barcode Scanner**: This activates the bar code scanner on the device. it will scan for 9 seconds or until it successfully scans a barcode. This can also be activated by pressing the buttons on the side of the device
