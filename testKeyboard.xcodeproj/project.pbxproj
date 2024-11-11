@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D5171402CCA1B3800BD9187 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D51713F2CCA1B3800BD9187 /* CoreLocation.framework */; };
+		3D5171422CCA1B3F00BD9187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5171412CCA1B3F00BD9187 /* Foundation.framework */; };
+		3D5171432CCA1B4A00BD9187 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D51713F2CCA1B3800BD9187 /* CoreLocation.framework */; };
+		3D5171442CCA1B5100BD9187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5171412CCA1B3F00BD9187 /* Foundation.framework */; };
+		3DA894102CC8D34700ABD1A3 /* NiceKeyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3DA894092CC8D34700ABD1A3 /* NiceKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DA894182CC8D53000ABD1A3 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3DA894172CC8D53000ABD1A3 /* KeyboardKit */; };
+		3DA8941A2CC8D54600ABD1A3 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3DA894192CC8D54600ABD1A3 /* KeyboardKit */; };
+		3DC0FA9A2CCA2C9A00C11A8D /* QuantumSDK 2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC0FA992CCA2C9A00C11A8D /* QuantumSDK 2.xcframework */; };
+		3DC0FA9C2CCA2C9A00C11A8D /* QuantumSDK 2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC0FA992CCA2C9A00C11A8D /* QuantumSDK 2.xcframework */; };
+		3DC0FA9E2CCA2CA800C11A8D /* QuantumSDK 2.xcframework in Sources */ = {isa = PBXBuildFile; fileRef = 3DC0FA992CCA2C9A00C11A8D /* QuantumSDK 2.xcframework */; };
+		3DC0FA9F2CCA2CB500C11A8D /* QuantumSDK 2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC0FA992CCA2C9A00C11A8D /* QuantumSDK 2.xcframework */; };
+		3DC0FAA12CCA2CBA00C11A8D /* QuantumSDK 2.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC0FA992CCA2C9A00C11A8D /* QuantumSDK 2.xcframework */; };
+		3DC0FAA42CCA2CDA00C11A8D /* QuantumSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC0FAA32CCA2CDA00C11A8D /* QuantumSDK.framework */; platformFilter = ios; };
+		3DC0FAA52CCA2CDA00C11A8D /* QuantumSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC0FAA32CCA2CDA00C11A8D /* QuantumSDK.framework */; platformFilter = ios; };
+		3DC0FAA82CCA2CE500C11A8D /* QuantumSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC0FAA32CCA2CDA00C11A8D /* QuantumSDK.framework */; };
+		3DC0FAA92CCA2CE500C11A8D /* QuantumSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC0FAA32CCA2CDA00C11A8D /* QuantumSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3DC0FAAB2CCA2CEE00C11A8D /* QuantumSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC0FAA32CCA2CDA00C11A8D /* QuantumSDK.framework */; };
+		3DC0FAAC2CCA2CEE00C11A8D /* QuantumSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC0FAA32CCA2CDA00C11A8D /* QuantumSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA893E92CC8D2FC00ABD1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA893D02CC8D2F400ABD1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA893D72CC8D2F400ABD1A3;
+			remoteInfo = testKeyboard;
+		};
+		3DA893F32CC8D2FD00ABD1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA893D02CC8D2F400ABD1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA893D72CC8D2F400ABD1A3;
+			remoteInfo = testKeyboard;
+		};
+		3DA8940E2CC8D34700ABD1A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA893D02CC8D2F400ABD1A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA894082CC8D34700ABD1A3;
+			remoteInfo = NiceKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D5171332CC9FDDD00BD9187 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3DC0FAAC2CCA2CEE00C11A8D /* QuantumSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA894152CC8D34700ABD1A3 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3DA894102CC8D34700ABD1A3 /* NiceKeyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DC0FAAA2CCA2CE500C11A8D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3DC0FAA92CCA2CE500C11A8D /* QuantumSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D51713D2CCA180D00BD9187 /* NiceKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NiceKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		3D51713F2CCA1B3800BD9187 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D5171412CCA1B3F00BD9187 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D51719A2CCA26ED00BD9187 /* testKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		3DA893D82CC8D2F400ABD1A3 /* testKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA893E82CC8D2FC00ABD1A3 /* testKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA893F22CC8D2FD00ABD1A3 /* testKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA894092CC8D34700ABD1A3 /* NiceKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NiceKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC0FA992CCA2C9A00C11A8D /* QuantumSDK 2.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = "QuantumSDK 2.xcframework"; sourceTree = "<group>"; };
+		3DC0FAA32CCA2CDA00C11A8D /* QuantumSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuantumSDK.framework; path = "/Users/taylorburgess/Downloads/QuantumSDK_v1.05.21/QuantumSDK_v1.05.21/SampleProjects/Library/QuantumSDK.xcframework/ios-arm64/QuantumSDK.framework"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3D51713B2CCA16E600BD9187 /* Exceptions for "testKeyboard" folder in "testKeyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3DA893D72CC8D2F400ABD1A3 /* testKeyboard */;
+		};
+		3DA894112CC8D34700ABD1A3 /* Exceptions for "NiceKeyboard" folder in "NiceKeyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3DA894082CC8D34700ABD1A3 /* NiceKeyboard */;
+		};
+		3DC0FA972CCA2C3400C11A8D /* Exceptions for "NiceKeyboard" folder in "testKeyboard" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CustomToolbarView.swift,
+				KeyboardViewController.swift,
+				Scanner.swift,
+			);
+			target = 3DA893D72CC8D2F400ABD1A3 /* testKeyboard */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3DA893DA2CC8D2F400ABD1A3 /* testKeyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3D51713B2CCA16E600BD9187 /* Exceptions for "testKeyboard" folder in "testKeyboard" target */,
+			);
+			path = testKeyboard;
+			sourceTree = "<group>";
+		};
+		3DA893EB2CC8D2FC00ABD1A3 /* testKeyboardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = testKeyboardTests;
+			sourceTree = "<group>";
+		};
+		3DA893F52CC8D2FD00ABD1A3 /* testKeyboardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = testKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		3DA8940A2CC8D34700ABD1A3 /* NiceKeyboard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3DC0FA972CCA2C3400C11A8D /* Exceptions for "NiceKeyboard" folder in "testKeyboard" target */,
+				3DA894112CC8D34700ABD1A3 /* Exceptions for "NiceKeyboard" folder in "NiceKeyboard" target */,
+			);
+			path = NiceKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA893D52CC8D2F400ABD1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5171432CCA1B4A00BD9187 /* CoreLocation.framework in Frameworks */,
+				3DA894182CC8D53000ABD1A3 /* KeyboardKit in Frameworks */,
+				3DC0FAA82CCA2CE500C11A8D /* QuantumSDK.framework in Frameworks */,
+				3DC0FAA12CCA2CBA00C11A8D /* QuantumSDK 2.xcframework in Frameworks */,
+				3D5171442CCA1B5100BD9187 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA893E52CC8D2FC00ABD1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC0FA9A2CCA2C9A00C11A8D /* QuantumSDK 2.xcframework in Frameworks */,
+				3DC0FAA52CCA2CDA00C11A8D /* QuantumSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA893EF2CC8D2FD00ABD1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC0FA9C2CCA2C9A00C11A8D /* QuantumSDK 2.xcframework in Frameworks */,
+				3DC0FAA42CCA2CDA00C11A8D /* QuantumSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA894062CC8D34700ABD1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5171402CCA1B3800BD9187 /* CoreLocation.framework in Frameworks */,
+				3DA8941A2CC8D54600ABD1A3 /* KeyboardKit in Frameworks */,
+				3DC0FAAB2CCA2CEE00C11A8D /* QuantumSDK.framework in Frameworks */,
+				3DC0FA9F2CCA2CB500C11A8D /* QuantumSDK 2.xcframework in Frameworks */,
+				3D5171422CCA1B3F00BD9187 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D51713E2CCA1B3800BD9187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D5171412CCA1B3F00BD9187 /* Foundation.framework */,
+				3D51713F2CCA1B3800BD9187 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DA893CF2CC8D2F400ABD1A3 = {
+			isa = PBXGroup;
+			children = (
+				3D51719A2CCA26ED00BD9187 /* testKeyboard-Bridging-Header.h */,
+				3D51713D2CCA180D00BD9187 /* NiceKeyboard-Bridging-Header.h */,
+				3DA893DA2CC8D2F400ABD1A3 /* testKeyboard */,
+				3DA893EB2CC8D2FC00ABD1A3 /* testKeyboardTests */,
+				3DA893F52CC8D2FD00ABD1A3 /* testKeyboardUITests */,
+				3DA8940A2CC8D34700ABD1A3 /* NiceKeyboard */,
+				3DA893D92CC8D2F400ABD1A3 /* Products */,
+				3D51713E2CCA1B3800BD9187 /* Frameworks */,
+				3DC0FA992CCA2C9A00C11A8D /* QuantumSDK 2.xcframework */,
+				3DC0FAA32CCA2CDA00C11A8D /* QuantumSDK.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA893D92CC8D2F400ABD1A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA893D82CC8D2F400ABD1A3 /* testKeyboard.app */,
+				3DA893E82CC8D2FC00ABD1A3 /* testKeyboardTests.xctest */,
+				3DA893F22CC8D2FD00ABD1A3 /* testKeyboardUITests.xctest */,
+				3DA894092CC8D34700ABD1A3 /* NiceKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA893D72CC8D2F400ABD1A3 /* testKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA893FC2CC8D2FD00ABD1A3 /* Build configuration list for PBXNativeTarget "testKeyboard" */;
+			buildPhases = (
+				3DA893D42CC8D2F400ABD1A3 /* Sources */,
+				3DA893D52CC8D2F400ABD1A3 /* Frameworks */,
+				3DA893D62CC8D2F400ABD1A3 /* Resources */,
+				3DA894152CC8D34700ABD1A3 /* Embed Foundation Extensions */,
+				3DC0FAAA2CCA2CE500C11A8D /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA8940F2CC8D34700ABD1A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3DA893DA2CC8D2F400ABD1A3 /* testKeyboard */,
+			);
+			name = testKeyboard;
+			packageProductDependencies = (
+				3DA894172CC8D53000ABD1A3 /* KeyboardKit */,
+			);
+			productName = testKeyboard;
+			productReference = 3DA893D82CC8D2F400ABD1A3 /* testKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DA893E72CC8D2FC00ABD1A3 /* testKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA893FF2CC8D2FD00ABD1A3 /* Build configuration list for PBXNativeTarget "testKeyboardTests" */;
+			buildPhases = (
+				3DA893E42CC8D2FC00ABD1A3 /* Sources */,
+				3DA893E52CC8D2FC00ABD1A3 /* Frameworks */,
+				3DA893E62CC8D2FC00ABD1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA893EA2CC8D2FC00ABD1A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3DA893EB2CC8D2FC00ABD1A3 /* testKeyboardTests */,
+			);
+			name = testKeyboardTests;
+			packageProductDependencies = (
+			);
+			productName = testKeyboardTests;
+			productReference = 3DA893E82CC8D2FC00ABD1A3 /* testKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DA893F12CC8D2FD00ABD1A3 /* testKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA894022CC8D2FD00ABD1A3 /* Build configuration list for PBXNativeTarget "testKeyboardUITests" */;
+			buildPhases = (
+				3DA893EE2CC8D2FD00ABD1A3 /* Sources */,
+				3DA893EF2CC8D2FD00ABD1A3 /* Frameworks */,
+				3DA893F02CC8D2FD00ABD1A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA893F42CC8D2FD00ABD1A3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3DA893F52CC8D2FD00ABD1A3 /* testKeyboardUITests */,
+			);
+			name = testKeyboardUITests;
+			packageProductDependencies = (
+			);
+			productName = testKeyboardUITests;
+			productReference = 3DA893F22CC8D2FD00ABD1A3 /* testKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3DA894082CC8D34700ABD1A3 /* NiceKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA894122CC8D34700ABD1A3 /* Build configuration list for PBXNativeTarget "NiceKeyboard" */;
+			buildPhases = (
+				3DA894052CC8D34700ABD1A3 /* Sources */,
+				3DA894062CC8D34700ABD1A3 /* Frameworks */,
+				3DA894072CC8D34700ABD1A3 /* Resources */,
+				3D5171332CC9FDDD00BD9187 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3DA8940A2CC8D34700ABD1A3 /* NiceKeyboard */,
+			);
+			name = NiceKeyboard;
+			packageProductDependencies = (
+				3DA894192CC8D54600ABD1A3 /* KeyboardKit */,
+			);
+			productName = NiceKeyboard;
+			productReference = 3DA894092CC8D34700ABD1A3 /* NiceKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA893D02CC8D2F400ABD1A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					3DA893D72CC8D2F400ABD1A3 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					3DA893E72CC8D2FC00ABD1A3 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3DA893D72CC8D2F400ABD1A3;
+					};
+					3DA893F12CC8D2FD00ABD1A3 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 3DA893D72CC8D2F400ABD1A3;
+					};
+					3DA894082CC8D34700ABD1A3 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 3DA893D32CC8D2F400ABD1A3 /* Build configuration list for PBXProject "testKeyboard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA893CF2CC8D2F400ABD1A3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3DA894162CC8D53000ABD1A3 /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3DA893D92CC8D2F400ABD1A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA893D72CC8D2F400ABD1A3 /* testKeyboard */,
+				3DA893E72CC8D2FC00ABD1A3 /* testKeyboardTests */,
+				3DA893F12CC8D2FD00ABD1A3 /* testKeyboardUITests */,
+				3DA894082CC8D34700ABD1A3 /* NiceKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA893D62CC8D2F400ABD1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA893E62CC8D2FC00ABD1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA893F02CC8D2FD00ABD1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA894072CC8D34700ABD1A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA893D42CC8D2F400ABD1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DC0FA9E2CCA2CA800C11A8D /* QuantumSDK 2.xcframework in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA893E42CC8D2FC00ABD1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA893EE2CC8D2FD00ABD1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA894052CC8D34700ABD1A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DA893EA2CC8D2FC00ABD1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA893D72CC8D2F400ABD1A3 /* testKeyboard */;
+			targetProxy = 3DA893E92CC8D2FC00ABD1A3 /* PBXContainerItemProxy */;
+		};
+		3DA893F42CC8D2FD00ABD1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA893D72CC8D2F400ABD1A3 /* testKeyboard */;
+			targetProxy = 3DA893F32CC8D2FD00ABD1A3 /* PBXContainerItemProxy */;
+		};
+		3DA8940F2CC8D34700ABD1A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA894082CC8D34700ABD1A3 /* NiceKeyboard */;
+			targetProxy = 3DA8940E2CC8D34700ABD1A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DA893FA2CC8D2FD00ABD1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DA893FB2CC8D2FD00ABD1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA893FD2CC8D2FD00ABD1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"testKeyboard/Preview Content\"";
+				DEVELOPMENT_TEAM = 448W4K2NU7;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-arm64",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testKeyboard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changchun.testKeyboard2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/taylorburgess/Documents/repos/testKeyboard/NiceKeyboard-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DA893FE2CC8D2FD00ABD1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"testKeyboard/Preview Content\"";
+				DEVELOPMENT_TEAM = 448W4K2NU7;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-arm64",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = testKeyboard/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changchun.testKeyboard2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/taylorburgess/Documents/repos/testKeyboard/NiceKeyboard-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DA894002CC8D2FD00ABD1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changchun.testKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testKeyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testKeyboard";
+			};
+			name = Debug;
+		};
+		3DA894012CC8D2FD00ABD1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changchun.testKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testKeyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/testKeyboard";
+			};
+			name = Release;
+		};
+		3DA894032CC8D2FD00ABD1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changchun.testKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testKeyboard;
+			};
+			name = Debug;
+		};
+		3DA894042CC8D2FD00ABD1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changchun.testKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testKeyboard;
+			};
+			name = Release;
+		};
+		3DA894132CC8D34700ABD1A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448W4K2NU7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-arm64",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NiceKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NiceKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changchun.testKeyboard2.NiceKeyboard2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/taylorburgess/Documents/repos/testKeyboard/testKeyboard-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DA894142CC8D34700ABD1A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 448W4K2NU7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ios-arm64",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NiceKeyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NiceKeyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.changchun.testKeyboard2.NiceKeyboard2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/taylorburgess/Documents/repos/testKeyboard/testKeyboard-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA893D32CC8D2F400ABD1A3 /* Build configuration list for PBXProject "testKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA893FA2CC8D2FD00ABD1A3 /* Debug */,
+				3DA893FB2CC8D2FD00ABD1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA893FC2CC8D2FD00ABD1A3 /* Build configuration list for PBXNativeTarget "testKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA893FD2CC8D2FD00ABD1A3 /* Debug */,
+				3DA893FE2CC8D2FD00ABD1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA893FF2CC8D2FD00ABD1A3 /* Build configuration list for PBXNativeTarget "testKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA894002CC8D2FD00ABD1A3 /* Debug */,
+				3DA894012CC8D2FD00ABD1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA894022CC8D2FD00ABD1A3 /* Build configuration list for PBXNativeTarget "testKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA894032CC8D2FD00ABD1A3 /* Debug */,
+				3DA894042CC8D2FD00ABD1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA894122CC8D34700ABD1A3 /* Build configuration list for PBXNativeTarget "NiceKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA894132CC8D34700ABD1A3 /* Debug */,
+				3DA894142CC8D34700ABD1A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DA894162CC8D53000ABD1A3 /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeyboardKit/KeyboardKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.9.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DA894172CC8D53000ABD1A3 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DA894162CC8D53000ABD1A3 /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+		3DA894192CC8D54600ABD1A3 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DA894162CC8D53000ABD1A3 /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3DA893D02CC8D2F400ABD1A3 /* Project object */;
+}
