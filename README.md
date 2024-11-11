@@ -2,8 +2,9 @@
 This is a custom keyboard written in Swift and utilizes swiftUI and was created using KeyboardKit. This program is compatible with the Linea Pro 7i device. 
 
 # How to install
-Once you have your developer key, just paste it into the try IPCIQ.register()!.setDeveloperKey("<Your developer key>") method in the Scanner.swift class. 
-In addition, follow the instruction in the QuantumSDK on how to configure your info.plist and your project. You will need to add add three privacy keys. Your info.plist at the end should resemble this:
+Once you have your developer key, just paste it into the try IPCIQ.register()!.setDeveloperKey("<Your developer key>") method in the Scanner.swift class. In addition, you will also need to add your bundleId and appGroupId to the KeyboardViewController under the KeyboardApp Extension.
+
+Follow the instruction in the QuantumSDK on how to configure your info.plist and your project. You will need to add add three privacy keys. Your info.plist at the end should resemble this:
 
 ![image](https://github.com/user-attachments/assets/ce0b4e61-758d-48c0-9c32-14c4f068db72)
 
