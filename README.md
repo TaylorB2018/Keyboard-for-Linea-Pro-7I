@@ -1,3 +1,5 @@
+This is my first Swift project, if you have any advice you would like to give, or if you have any difficulty running the program on your local device, feel free to reach out!
+
 # Keyboard-for-Linea-Pro-7I
 This is a custom keyboard written in Swift and utilizes swiftUI and was created using KeyboardKit. This program is compatible with the Linea Pro 7i device. 
 
@@ -30,3 +32,5 @@ When the device has not yet been connected, the three buttons on top will be gra
 **UHF**: when tapped, if there is a UHF tag nearby, it will scan it and print its contents out to the screen
 
 **Barcode Scanner**: This activates the bar code scanner on the device. it will scan for 9 seconds or until it successfully scans a barcode. This can also be activated by pressing the buttons on the side of the device
+
+
