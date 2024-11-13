@@ -1,4 +1,3 @@
-This is my first Swift project, if you have any advice you would like to give, or if you have any difficulty running the program on your local device, feel free to reach out!
 
 # Keyboard-for-Linea-Pro-7I
 This is a custom keyboard written in Swift and utilizes swiftUI and was created using KeyboardKit. This program is compatible with the Linea Pro 7i device. 
