@@ -15,7 +15,7 @@ class Scanner: ObservableObject {
     @Published var deviceNotConnected = true
     @Published var uhfScanIsFinished = false
     let ipc = IPCDTDevices.sharedDevice()!
-    
+    // fjshbifuhbsiufhsdiufhisdufbw
     init() {
         
         print("Scanner initializing...")
